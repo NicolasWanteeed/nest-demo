@@ -1,0 +1,11 @@
+{{-- LABEL --}}
+<label
+  for="{{ name }}_field"
+  class="block text-sm font-medium text-gray-700"
+>{{ label || name }}</label>
+{{-- INPUT --}}
+<input
+  type="{{ type || 'text' }}"
+  name="{{ name }}"
+  id="{{ name }}_field"
+  class="mt-2 px-2 py-1 w-full rounded bg-gray-100 focus:outline-none focus:bg-white border border-transparent focus:border-indigo-500">
